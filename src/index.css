@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-josefin: "Josefin Sans", "serif";
+  --color-brightblue: hsl(220, 98%, 61%);
+  --color-checkbg: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+
+    
+  --color-lightgray: hsl(0, 0%, 98%);
+  --color-verylightgrayishblue: hsl(236, 33%, 92%);
+  --color-lightthemegrayishblue: hsl(233, 11%, 84%);
+  --color-darkgrayishblue: hsl(236, 9%, 61%);
+  --color-verydarkgrayishblue: hsl(235, 19%, 35%);
+
+  --color-verydarkblue: hsl(235, 21%, 11%);
+  --color-verydarkdesaturatedblue: hsl(235, 24%, 19%);
+  --color-lightgrayishblue: hsl(234, 39%, 85%);
+  --color-lightgrayishbluehover: hsl(236, 33%, 92%);
+  --color-darkgrayishblue: hsl(234, 11%, 52%);
+  --color-verydarkgrayishblue: hsl(233, 14%, 35%);
+  --color-verydark: hsl(237, 14%, 26%);
+
+  --shadow-custom: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  --breakpoint-3xl: 1441px;
+} 

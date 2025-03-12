@@ -1,0 +1,10 @@
+[data-draggable="true"] {
+    user-select: none;
+    position: relative;
+    z-index: 0;
+  }
+  
+  [data-dragging="true"] {
+    z-index: 1;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
